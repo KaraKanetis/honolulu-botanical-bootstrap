@@ -1,0 +1,35 @@
+
+.hero-banner {
+  background-image: url('https://www.dtric.com/wp-content/uploads/2020/03/header-banana-leaf.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+  padding: 30px;
+  color: white;
+  
+}
+.accessibility-btn {
+  position: absolute;
+  top: 150px;   /* Adjust up/down */
+  left: 20px;   /* Adjust left/right */
+  background-color: #2E4AAD;  /* Blue color */
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 24px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
+
+
+
+body {
+  position: relative;
+}
+
+
